@@ -82,5 +82,5 @@ expo-router   →  /login (public route)  /home (protected route)
 
 ## Demo
 <p align="center">
-  <img src="assets/demo.gif" alt="App demo" width="280" />
+  <img src="assets/login-record.gif" alt="App demo" width="280" />
 </p>
