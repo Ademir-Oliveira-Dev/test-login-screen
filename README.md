@@ -79,3 +79,8 @@ expo-router   →  /login (public route)  /home (protected route)
 3. The theme toggle reads/writes Zustand and notifies `GluestackUIProvider`.
 
 ---
+
+## Demo
+<p align="center">
+  <img src="assets/demo.gif" alt="App demo" width="280" />
+</p>
