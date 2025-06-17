@@ -1,6 +1,8 @@
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { REQRES_API_KEY } from '@env';
+import Constants from 'expo-constants';
+
+const { REQRES_API_KEY } = Constants.expoConfig?.extra ?? {};
 
 const api = axios.create({
   baseURL: 'https://reqres.in/api',

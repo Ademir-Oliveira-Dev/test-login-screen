@@ -56,10 +56,13 @@ module.exports = ({ config }) => {
 
     experiments: { typedRoutes: true },
 
+    ...config,
     extra: {
       eas: { projectId: '7a18f879-c8f8-4125-8001-408110122d72' },
       apiUrl: API_URL,
       env: ENV,
+      ...config.extra,
+      REQRES_API_KEY: process.env.REQRES_API_KEY ?? 'reqres-free-v1',
     },
 
     owner: 'aoliveira-dev',
